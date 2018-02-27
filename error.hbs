@@ -1,0 +1,28 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+{{! The tag below includes the blog header - partials/header.hbs }}
+{{> header}}
+
+{{! Blog description displayed on the homepage }}
+<div class="site-description">
+	<p>{{@blog.description}}</p>
+</div><!-- .site-description -->
+
+{{! The main content area on the homepage }}
+<main class="main-content" role="main">
+
+    <article class="post page" role="article">
+        <header class="post-header">
+            <h1 class="post-title">404 - Page Not Found</h1>
+        </header><!-- .post-header -->
+        <div class="post-content">
+            <p>The page you requested was not found.</p>
+            <p class="read-more"><a class="read-more-link" href="/" title="Goto the front page">Goto the front page →</a></p>
+        </div><!-- .post-content -->
+    </article>
+
+</main><!-- .main-content -->
+
+{{! The tag below includes the theme footer - partials/footer.hbs }}
+{{> footer}}

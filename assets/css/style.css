@@ -321,7 +321,7 @@ textarea {
 }
 
 html {
-    border: 15px solid #2d72d9;
+    border: 15px solid #02b875;
 }
 
 body {
@@ -332,7 +332,7 @@ body {
 }
 
 a {
-    color: #2d72d9;
+    color: #00ab6b;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition:    all 0.3s ease;
@@ -443,7 +443,7 @@ pre code {
 }
 
 blockquote {
-    border-left: 3px solid #2c343c;
+    border-left: 6px solid #02b875;
     color: #2c343c;
     font-family: 'Droid Serif',Georgia,serif;
     font-style: italic;
@@ -573,13 +573,13 @@ video {
 
 /* Text selection */
 ::-moz-selection {
-    background: #e4edfa;
+    background: #e4efeb;
     color: #2c343c;
     text-shadow: none;
 }
 
 ::selection {
-    background: #e4edfa;
+    background: #e4efeb;
     color: #2c343c;
     text-shadow: none;
 }
@@ -605,17 +605,27 @@ video {
 /* Site title */
 .site-title {
     float: left;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 1.66667em;
     margin: 0 30px 0 0;
 }
-
+/*
+.site-title:before {
+    content: "";
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    border: 5px solid #00ab6b;
+    display: inline-block;
+}
+*/
 .site-title a {
-    color: #2c343c;
+    color: #00ab6b;
     text-decoration: none;
 }
 
 .site-title a:hover {
-    color: #2d72d9;
+    color: #2c343c;
 }
 
 /* Navigation */
@@ -643,7 +653,7 @@ video {
 }
 
 .main-navigation a:hover {
-    color: #2d72d9;
+    color: #00ab6b;
 }
 
 /* Site description */
@@ -681,7 +691,7 @@ video {
 }
 
 .featured-post {
-    color: #2d72d9;
+    color: #00ab6b;
     padding-right: 5px;
 }
 
@@ -700,7 +710,7 @@ video {
 }
 
 .post-title a:hover {
-    color: #2d72d9;
+    color: #00ab6b;
 }
 
 .post-meta {
@@ -813,8 +823,8 @@ video {
 }
 
 .share-post a:hover {
-    border-color: #2d72d9;
-    color: #2d72d9;
+    border-color: #00ab6b;
+    color: #00ab6b;
 }
 
 /* ==========================================================================
@@ -886,7 +896,7 @@ video {
 }
 
 .offsite-links a:hover {
-    color: #2d72d9;
+    color: #00ab6b;
 }
 
 .site-info {
@@ -906,8 +916,8 @@ video {
 }
 
 a.back-to-top:hover {
-    border-color: #2d72d9;
-    color: #2d72d9;    
+    border-color: #00ab6b;
+    color: #00ab6b;
     text-decoration: none;
 }
 
